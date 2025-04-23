@@ -6,7 +6,6 @@
 172.31.0.201
 172.31.1.202
 
-
 [myDBservers]
 172.31.0.301
 172.31.1.302
@@ -14,5 +13,7 @@
 [myubuntuservers]
 172.31.0.218 
 
-[myredhatservers]
-172.31.1.118
+[mywebserers:vars]
+var01= value
+myubuntuwebpack= apache22222
+myredhatwebpack= httpd
