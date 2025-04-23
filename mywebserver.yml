@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: mywebserers
   become: yes
   gather_facts: yes
   tasks:
