@@ -13,7 +13,3 @@
 [myubuntuservers]
 172.31.0.218 
 
-[mywebserers:vars]
-var01= value
-myubuntuwebpack= nginx
-myredhatwebpack= httpd
