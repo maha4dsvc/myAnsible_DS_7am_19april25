@@ -7,3 +7,12 @@
     apt:
       name: apache2 
       state: present 
+
+  - name: i want to create a folder 
+    file:  
+       path: /home/maha/myfolder
+       state: directory
+
+       
+
+   
