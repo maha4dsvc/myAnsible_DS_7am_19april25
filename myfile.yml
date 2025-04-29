@@ -1,3 +1,5 @@
 ---
-- key: value
-# space notation 
+  - name: create a file 
+    file: 
+       path: /home/maha/myfirstfile
+       state: touch
