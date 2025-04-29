@@ -24,6 +24,10 @@
       dest: /home/maha/myfolder/jenkins.war
       force_basic_auth: yes
 
+  - name: i want to copy index file into node side 
+    template:
+        src: myindex.j2
+        dest: /var/www/html/index.html
 
 
    
